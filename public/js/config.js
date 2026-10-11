@@ -31,12 +31,13 @@ const APP_CONFIG = {
   //  (سيستمر النظام بالعمل محليًا بدون سحابة)
   // ----------------------------------------------------------
   FIREBASE_CONFIG: {
-    apiKey: 'ضع-مفتاح-API-هنا',
-    authDomain: 'ضع-اسم-المشروع.firebaseapp.com',
-    databaseURL: 'https://ضع-اسم-المشروع-default-rtdb.firebaseio.com',
-    projectId: 'ضع-اسم-المشروع',
-    storageBucket: 'ضع-اسم-المشروع.appspot.com',
-    messagingSenderId: 'ضع-معرف-المرسل-هنا',
-    appId: 'ضع-معرف-التطبيق-هنا',
+    apiKey: 'AIzaSyDDSx_jBGuLlOkSygzQbw4sQZATboOHsMc',
+    authDomain: 'msale-web.firebaseapp.com',
+    databaseURL: 'https://msale-web-default-rtdb.europe-west1.firebasedatabase.app',
+    projectId: 'msale-web',
+    storageBucket: 'msale-web.firebasestorage.app',
+    messagingSenderId: '186044762425',
+    appId: '1:186044762425:web:9a5d7c7b809ab994f3c0e8',
+    measurementId: 'G-DCE6GDLVYQ',
   },
 };
