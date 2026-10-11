@@ -1,6 +1,6 @@
 // ============================================================
 //  server.js — خادم نظام تسجيل الطلاب في معسكر الدرس
-//  الأستاذ علي ضاحي — الحاكم
+//  أ. علي ضاحي جاد — الحاكم
 //
 //  التشغيل:  npm start   ثم افتح  http://localhost:3000
 // ============================================================
@@ -38,7 +38,7 @@ app.get('/api/config', (req, res) => {
   const adminNumber = whatsapp.normalizeRecipient(process.env.WHATSAPP_ADMIN_NUMBER);
   res.json({
     appName: 'استمارة تسجيل الطلاب في المعسكر',
-    teacher: 'الأستاذ علي ضاحي',
+    teacher: 'أ. علي ضاحي جاد',
     title: 'الحاكم',
     stages: STAGES,
     whatsappAdminNumber: adminNumber,
@@ -118,7 +118,7 @@ app.use((err, req, res, next) => {
 
 app.listen(PORT, () => {
   console.log('──────────────────────────────────────────────');
-  console.log('  معسكر الدرس — الأستاذ علي ضاحي (الحاكم)');
+  console.log('  معسكر الدرس — أ. علي ضاحي جاد (الحاكم)');
   console.log(`  استمارة التسجيل : http://localhost:${PORT}`);
   console.log(`  لوحة الإدارة    : http://localhost:${PORT}/admin`);
   console.log(

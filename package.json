@@ -1,7 +1,7 @@
 {
   "name": "msale-camp-registration",
   "version": "1.0.0",
-  "description": "نظام تسجيل الطلاب في معسكر الدرس - الأستاذ علي ضاحي (الحاكم)",
+  "description": "نظام تسجيل الطلاب في معسكر الدرس - أ. علي ضاحي جاد (الحاكم)",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

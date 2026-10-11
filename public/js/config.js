@@ -18,7 +18,7 @@ const APP_CONFIG = {
   API_BASE: '/api',
 
   // بيانات المعهد
-  TEACHER: 'الأستاذ علي ضاحي',
+  TEACHER: 'أ. علي ضاحي جاد',
   TITLE: 'الحاكم',
   CAMP: 'معسكر الدرس',
 
