@@ -82,11 +82,11 @@ body {
   backdrop-filter: blur(6px);
 }
 
-/* اللوجو داخل الترويسة (يظهر تلقائيًا إذا وُجد public/logo.png) */
+/* اللوجو داخل الترويسة (يظهر تلقائيًا إذا وُجد public/logo.jpg) */
 .hero-avatar img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   border-radius: 50%;
   display: none;
 }
